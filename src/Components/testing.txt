@@ -1,0 +1,18 @@
+Testing is like more code. 
+Suppose we have a function that returns 5. how do we ensure that this function is correctly written
+At the heart of testing is comparing expected output versus actual output.
+
+Testing could be:  Unit test, Deterministic Function.
+
+How do we compare expected output vs actual output?
+
+We write somethig like this: => expect five().toBe(5)
+
+The testing library would find this line, run it, and would inform you whether this was the case or not.
+If the test runner picks up that line, runs it, and the output is 4, it would return a fail .
+
+There is no scientific way that we can that can think of where a function is right except through testing
+
+Make sure your functions have a side-effect: returning values or doing something.
+
+Your test files should be placed in the _test_ named folder. They should also have the extension .test.js
